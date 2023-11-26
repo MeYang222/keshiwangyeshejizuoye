@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>登录页面</title>
+<link type="text/css" href="../../css/login1.css" rel="stylesheet">
+
+</head>
+<body>
+<!--账号和密码：4到16位（字母，数字）-->
+<form action="../../index.html" method="">
+	<div class="form-control">
+		<label for="username">账号</label>
+		<input type="text" id="username" name="username" class="number" pattern="^[a-zA-Z0-9]{4,16}$" required />
+	</div>
+	<div class="form-control">
+		<label for="password">密码</label>
+		<input type="password" id="password" name="pas" class="pas" pattern="^[a-zA-Z0-9]{4,16}$" required/>
+		<button type="submit" id="loginbutton" class="loginbtn">登录</button>
+		<!--
+			onclick="window.location.href='myindex.html'"
+        -->
+    </div>
+</form>
+
+
+</body>
+</html>
