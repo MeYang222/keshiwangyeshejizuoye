@@ -1,0 +1,15 @@
+.slideru {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.slideru-wrapper{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  transition: transform 1.1s ease;
+}
+.slideru-wrapper img {
+  width: 100%;
+  height: 400px;
+}
